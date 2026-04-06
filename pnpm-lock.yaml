@@ -292,6 +292,9 @@ importers:
       '@iconify/utils':
         specifier: 2.1.25
         version: 2.1.25
+      '@netlify/plugin-nextjs':
+        specifier: ^5.15.9
+        version: 5.15.9
       '@types/mapbox-gl':
         specifier: ^3.1.0
         version: 3.1.0
@@ -1271,6 +1274,10 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
+
+  '@netlify/plugin-nextjs@5.15.9':
+    resolution: {integrity: sha512-4kJvV+wrt4/ncehfaOXfhv1FYKCv9EFjq6/tgXXYSlqPDcbsuTXR0DTz9IvyZ/CpPRadRD/zzIqD9wXgCmA2lg==}
+    engines: {node: '>=18.0.0'}
 
   '@next/env@14.2.32':
     resolution: {integrity: sha512-n9mQdigI6iZ/DF6pCTwMKeWgF2e8lg7qgt5M7HXMLtyhZYMnf/u905M18sSpPmHL9MKp9JHo56C6jrD2EvWxng==}
@@ -6170,6 +6177,8 @@ snapshots:
       react-is: 18.3.1
     optionalDependencies:
       '@types/react': 18.3.3
+
+  '@netlify/plugin-nextjs@5.15.9': {}
 
   '@next/env@14.2.32': {}
 
